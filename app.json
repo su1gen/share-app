@@ -16,7 +16,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.shareapp1231313144"
     },
     "web": {
       "bundler": "metro",
@@ -43,7 +44,10 @@
             "NSExtensionActivationSupportsImageWithMaxCount": 1,
             "NSExtensionActivationSupportsMovieWithMaxCount": 1
           },
-          "androidIntentFilters": ["text/*", "image/*"]
+          "androidIntentFilters": [
+            "text/*",
+            "image/*"
+          ]
         }
       ]
     ],

@@ -43,10 +43,6 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <View style={styles.container}>
-        {/*<Image*/}
-        {/*  source={require("./assets/icon.png")}*/}
-        {/*  style={[styles.logo, styles.gap]}*/}
-        {/*/>*/}
         <Text style={[styles.gap, styles.bold]}>
           {hasShareIntent ? "SHARE INTENT FOUND !" : "NO SHARE INTENT DETECTED"}
         </Text>
